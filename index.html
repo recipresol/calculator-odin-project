@@ -7,12 +7,22 @@
         <title>Document</title>
     </head>
     <body>
-        <div id="display">0</div>
-        <button id="cle">CLEAR ENTRY</button>
-        <button id="cla">CLEAR ALL</button>
-        <div id="operators"></div>
-        <button id="eqs">=</button>
-        <div id="digits"></div>
+        <div id="interface">
+            <div id="display">0</div>
+            <div id="buttons">
+                <div id="left-buttons">
+                    <div id="clear-buttons">
+                        <button id="cle" class="btn clear">CE</button>
+                        <button id="cla" class="btn clear">AC</button>
+                    </div>
+                    <div id="digits"></div>
+                </div>
+                <div id="right-buttons">
+                    <div id="operators"></div>
+                    <button id="eqs" class="btn">=</button>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
 <script src="script.js"></script>
